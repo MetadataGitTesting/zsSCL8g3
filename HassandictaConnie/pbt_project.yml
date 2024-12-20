@@ -26,7 +26,7 @@ pipelines:
     dependencies: {}
   pipelines/conflictedPipelineDescription:
     name: conflictedPipelineDescription
-    description: p2 left description
+    description: p2 right description
     author: ltzjhckq.zoatuoqh@awh8khdx.com
     mode: batch
     artefactID: ''
@@ -37,14 +37,14 @@ pipelines:
       outputs: []
     subgraphs: []
     dependencies: {}
-  pipelines/badPipeline:
-    name: badPipeline
+  pipelines/NewPipeline:
+    name: NewPipeline
     description: null
     author: ltzjhckq.zoatuoqh@awh8khdx.com
     mode: batch
     artefactID: ''
     language: scala
-    createdAt: '2024-12-20 20:25:59'
+    createdAt: '2024-12-20 20:26:00'
     datasets:
       inputs: []
       outputs: []
