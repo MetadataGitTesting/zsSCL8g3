@@ -1,0 +1,88 @@
+name: wilson.dickinson
+description: Right-sized
+version: 0.0.1
+author: ltzjhckq.zoatuoqh@awh8khdx.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: wilsondickinson
+  parentArtefactID: ltzjhckqzoatuoqhawh8khdxcomteam
+  buildSystem: maven
+  author: null
+  createdAt: '2024-12-20 20:25:58'
+pipelines:
+  pipelines/conflictedPipelineCode:
+    name: conflictedPipelineCode
+    description: null
+    author: ltzjhckq.zoatuoqh@awh8khdx.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-12-20 20:25:58'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/conflictedPipelineDescription:
+    name: conflictedPipelineDescription
+    description: null
+    author: ltzjhckq.zoatuoqh@awh8khdx.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-12-20 20:25:59'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/badPipeline:
+    name: badPipeline
+    description: null
+    author: ltzjhckq.zoatuoqh@awh8khdx.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-12-20 20:25:59'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-12-20 20:25:58'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-12-20T20:25:58.790656Z'
+  name: plibMaven
+  version: 8.8.0-SNAPSHOT
+  id: '120455299'
+  createdAt: '2024-12-20T20:25:58.790656Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
